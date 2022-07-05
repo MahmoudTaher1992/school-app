@@ -1,0 +1,11 @@
+{
+  "name": "@school-app/graphql",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@school-app/shared": "*",
+    "express": "^4.18.1",
+    "typescript": "^4.7.4"
+  }
+}

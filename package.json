@@ -1,0 +1,29 @@
+{
+  "name": "school-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:express": "lerna run --stream start:dev --scope=@school-app/express"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudTaher1992/school-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MahmoudTaher1992/school-app/issues"
+  },
+  "homepage": "https://github.com/MahmoudTaher1992/school-app#readme",
+  "dependencies": {
+    "lerna": "^5.1.6"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
