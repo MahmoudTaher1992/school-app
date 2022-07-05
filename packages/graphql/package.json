@@ -4,8 +4,11 @@
   "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
+    "@graphql-tools/schema": "^8.5.0",
     "@school-app/shared": "*",
     "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
     "typescript": "^4.7.4"
   }
 }

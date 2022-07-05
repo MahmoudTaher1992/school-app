@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon src/index.ts"
+    "start:dev": "nodemon --watch ./../graphql  --watch . src/index.ts"
   },
   "dependencies": {
     "@school-app/graphql": "*",

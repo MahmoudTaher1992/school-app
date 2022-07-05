@@ -1,3 +1,7 @@
-import { schools } from "@school-app/shared";
+import { graphqlHTTP } from "express-graphql";
+import { schema } from "./schema/schema";
 
-export const newSchools = [...schools];
+export const expressGraphQLMiddleware = graphqlHTTP({
+  graphiql: true,
+  schema: schema,
+});
